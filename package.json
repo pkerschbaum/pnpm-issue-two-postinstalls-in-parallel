@@ -1,0 +1,16 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "rm -rf node_modules && rm -rf packages/package-a/node_modules && rm -rf packages/package-b/node_modules && pnpm --config.side-effects-cache=false install"
+  },
+  "engines": {
+    "pnpm": "^8.6.7"
+  },
+  "pnpm": {
+    "overrides": {
+      "mongodb": "^5"
+    }
+  },
+  "packageManager": "pnpm@8.6.7"
+}

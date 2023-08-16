@@ -1,0 +1,6 @@
+{
+  "name": "@monorepo/package-b",
+  "dependencies": {
+    "mongodb-memory-server": "^8.15.0"
+  }
+}
